@@ -1,0 +1,165 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+body {
+	width: 100vw;
+}
+
+.mainBlock {
+	width: 500px;
+	height: 600px;
+	background-color: rgb(180, 224, 238);
+	border-radius: 5%;
+	padding: 20px;
+	margin: 10px auto 0 auto;
+}
+
+.input_flex {
+	width: 450px;
+	height: 36px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#message {
+	width: 220px;
+	height: 36px;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+
+button {
+	width: 100px;
+	height: 36px;
+	border-radius: 5px;
+}
+
+.chat_place {
+	width: 450px;
+	height: 500px;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+	overflow-y: scroll;
+	padding: 15px;
+	border: 10px solid rgba(4, 83, 97, 0.5);
+	display: flex;
+	flex-direction: column;
+}
+
+.block_serverMessage,
+.block_userMessage {
+	margin-bottom: 10px;
+}
+
+
+.userMessage {
+	background-color: rgb(180, 224, 238);
+	min-width: 100px;
+	max-width: 300px;
+	min-height: 50px;
+	max-height: none;
+	padding: 10px;
+	border-radius: 2px;
+	overflow-wrap: break-word;
+	box-shadow: 5px 2px 10px 1px rgba(4, 83, 97, 0.5);
+	border: 2px solid rgba(4, 83, 97, 0.5);
+	float: left;
+}
+
+.serverMessage {
+	background-color: rgb(180, 224, 238);
+	min-width: 100px;
+	max-width: 300px;
+	min-height: 50px;
+	max-height: none;
+	padding: 10px;
+	border-radius: 2px;
+	overflow-wrap: break-word;
+	box-shadow: 5px 2px 10px 1px rgba(4, 83, 97, 0.5);
+	border: 2px solid rgba(4, 83, 97, 0.5);
+	float: right;
+}

@@ -1,0 +1,11 @@
+body {
+	width: 100vw;
+}
+
+button {
+	width: 400px;
+	height: 50px;
+	background: linear-gradient(rgb(3, 247, 206, 0.3), rgb(89, 89, 153, 0.5), rgb(3, 247, 206)) ;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
